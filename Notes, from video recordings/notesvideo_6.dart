@@ -6,20 +6,107 @@ import 'package:untitled3/untitled3.dart' as untitled3;
 import 'NotesVideo_6.dart';
 
 void main(List<String> arguments) {
+  String fourth = 'This has spaces in it';
+
+  print(' '.allMatches(fourth).length);
+
+  int shape;
+  double area;
+  List<int> params;
+
+
+  /*
+
+  int shape;
+  double area;
+  List<int> params;
+  print(
+      '''
+  What shape do you have?
+  1. rectangle
+  2.circle
+  3.triangle
+  ''');
+  shape = int.parse(stdin.readLineSync());
+  if(shape == 1)
+  {
+    print("enter rectangle width");
+    int rectangleX = int.parse(stdin.readLineSync());
+    print("enter rectangle height");
+    int rectangleY = int.parse(stdin.readLineSync());
+    area = calculateRectangleArea(rectangleX, rectangleY).toDouble();
+  }
+  else if(shape == 2)
+  {
+    area = calculateCircleArea(10);
+  }
+  else if(shape == 3)
+  {
+
+    area = calculateTriangleArea(10, 15);
+  }
+
+  print("the area is $area");
+  int rectangleArea = calculateRectangleArea(10, 15);
+  double circleArea = calculateCircleArea(5);
+  double triangleArea = calculateTriangleArea(5,7);
+
+}
+//calculates area of a triangle
+double calculateTriangleArea(int x, int y)
+{
+  return (x*y) / 2;
+}
+
+//Calculates area of a circle
+double calculateCircleArea(int radius)
+{
+  return math.pi * math.pow(radius, 2);
+}
+
+
+//calculates area of a rectangle
+int calculateRectangleArea(int x , int y)
+{
+  //return the area of the rectangle
+  return x + y;
+}
+
+
+
+/*
   int rectangleArea = calculateRectangleArea(10, 15);
   double triangleArea = calculateTriangleArea(5,7);
   double circleArea = calculateCircleArea(5);
+
+  int shape;
+  double area;
 
   print(rectangleArea);
   print(triangleArea);
   print(circleArea);
 
-}
-//Return the area of rectangle
-  int calculateRectangleArea(int x, int y) {
-    return x * y;
 
-    //Return the area of Triangle
+  shape = int.parse(stdin.readLineSync());
+}
+if(shape == 1) {
+  print('Enter rectabke width: ');
+  int rectangleX = int.parse(stdin.readLineSync());
+  print('Enter rectangle height: ');
+  int rectangleY = int.parse(stdin.readLineSync());
+  area = calculateRectangleArea(rectangleX, rectangleY).toDouble();
+
+} else if (shape == 2) {
+  area = calculateCircleArea(10);
+} else if (shape == 3) {
+  area = calculateTriangleArea(10, 15)
+}
+
+//Return the area of rectangle
+int calculateRectangleArea(int x, int y) {
+  return x * y;
+
+  //Return the area of Triangle
 } double calculateTriangleArea(int x, int y) {
   return (x*y) / 2;
 
@@ -28,6 +115,7 @@ void main(List<String> arguments) {
   return math.pi * math.pow(radius, 2);
 }
 
+ */
 
 
 
@@ -137,3 +225,6 @@ void userInfo () {
 }
 
  */
+
+   */
+}
