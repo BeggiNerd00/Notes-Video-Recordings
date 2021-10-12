@@ -1,10 +1,6 @@
 import 'dart:io';
 import 'dart:math' as math;
 
-import 'package:untitled3/untitled3.dart' as untitled3;
-
-import 'NotesVideo_6.dart';
-
 void main() {
 
   int shape;
@@ -75,6 +71,3 @@ int calculateRectangleArea(int x, int y) {
   return x * y;
 }
 
-
-
-}
